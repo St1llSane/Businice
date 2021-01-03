@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Start html</title>
+</head>
+<body>
+    
+<!-- Header -->
+<header class="header" style="background-image: url(images/header-bg.jpg);">
+  <div class="container">
+    <div class="header__top">
+      <a class="logo" href="#">
+        <img src="images/logo.png" alt="Logo">
+      </a>
+      <div class="header__burger">
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#">Portfolio</a>
+      </li>
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#">About Us</a>
+      </li>
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#">Contacts</a>
+      </li>
+    </ul>
+    <div class="header__socials social__container">
+      <div class="header__socials-item social__container-item">
+        <svg class="header__socials-icon social__container-icon" xmlns="http://www.w3.org/2000/svg"
+         width="11px" height="20px"  viewBox="0 0 11 20">
+          <path fill-rule="evenodd"
+          d="M9.614197,7.0629883 C9.614197,7.0629883 6.8983765,7.0629883 6.8983765,7.0629883 C6.8983765,7.0629883 6.8983765,5.282715 6.8983765,5.282715 C6.8983765,4.6132812 7.341736,4.458496 7.654297,4.458496 C7.9657593,4.458496 9.570251,4.458496 9.570251,4.458496 C9.570251,4.458496 9.570251,1.5175781 9.570251,1.5175781 C9.570251,1.5175781 6.930664,1.5078125 6.930664,1.5078125 C4.0009766,1.5078125 3.334961,3.699707 3.334961,5.104004 C3.334961,5.104004 3.334961,7.0629883 3.334961,7.0629883 C3.334961,7.0629883 1.6405029,7.0629883 1.6405029,7.0629883 C1.6405029,7.0629883 1.6405029,10.092773 1.6405029,10.092773 C1.6405029,10.092773 3.334961,10.092773 3.334961,10.092773 C3.334961,13.981445 3.334961,18.666016 3.334961,18.666016 C3.334961,18.666016 6.8983765,18.666016 6.8983765,18.666016 C6.8983765,18.666016 6.8983765,13.935547 6.8983765,10.092773 C6.8983765,10.092773 9.303711,10.092773 9.303711,10.092773 C9.303711,10.092773 9.614197,7.0629883 9.614197,7.0629883 Z"/>
+        </svg>
+      </div>
+      <div class="header__socials-item social__container-item">
+        <svg class="header__socials-icon social__container-icon" xmlns="http://www.w3.org/2000/svg"
+        width="20px" height="17px"  viewBox="0 0 20 17">
+          <path fill-rule="evenodd"
+          d="M18.707947,3.409668 C18.065369,3.6953125 17.374023,3.8876953 16.6474,3.9746094 C17.387634,3.5307617 17.958008,2.8276367 18.225586,1.9887695 C17.53125,2.400879 16.762695,2.699707 15.946228,2.8608398 C15.290955,2.161621 14.357361,1.7260742 13.325073,1.7260742 C11.342773,1.7260742 9.735291,3.3344727 9.735291,5.3168945 C9.735291,5.5966797 9.767578,5.870117 9.828125,6.133789 C6.8446655,5.9853516 4.1990967,4.5561523 2.428711,2.3833008 C2.1200562,2.9125977 1.9423218,3.5307617 1.9423218,4.1884766 C1.9423218,5.434082 2.5761108,6.5317383 3.5390015,7.177246 C2.9511108,7.157715 2.3973389,6.996582 1.9130249,6.727051 C1.9130249,6.742676 1.9130249,6.757324 1.9130249,6.772949 C1.9130249,8.510742 3.1503906,9.962402 4.7938843,10.293457 C4.49115,10.374512 4.1747437,10.417969 3.8466187,10.417969 C3.61615,10.417969 3.390564,10.396484 3.171753,10.354004 C3.6278076,11.780762 4.9541016,12.817383 6.524292,12.848145 C5.2957764,13.80957 3.7479858,14.383789 2.0664062,14.383789 C1.7763062,14.383789 1.4912109,14.367676 1.2098999,14.334473 C2.7997437,15.352051 4.6865234,15.947754 6.713867,15.947754 C13.317322,15.947754 16.927673,10.477051 16.927673,5.73291 C16.927673,5.5771484 16.924683,5.4223633 16.916931,5.2680664 C17.618103,4.762207 18.22754,4.1289062 18.707947,3.409668 Z"/>
+        </svg>
+      </div>
+      <div class="header__socials-item social__container-item">
+        <svg class="header__socials-icon social__container-icon" xmlns="http://www.w3.org/2000/svg"
+        width="20px" height="21px"  viewBox="0 0 20 21">
+          <path fill-rule="evenodd"
+          d="M18.45996,8.561523 C18.343628,7.998535 18.171753,7.4438477 17.947266,6.9125977 C17.72754,6.390625 17.455017,5.88916 17.136658,5.419922 C16.824097,4.9555664 16.46283,4.5185547 16.066406,4.1220703 C15.668945,3.724121 15.232361,3.362793 14.767517,3.050293 C14.298767,2.7319336 13.796814,2.4594727 13.275269,2.2382812 C12.746033,2.0161133 12.189392,1.8427734 11.625977,1.7290039 C11.046814,1.6098633 10.452026,1.5493164 9.857422,1.5493164 C9.261597,1.5493164 8.667908,1.6098633 8.088867,1.7290039 C7.5253296,1.8427734 6.9697266,2.0161133 6.439392,2.2382812 C5.9189453,2.4594727 5.4159546,2.7319336 4.9472046,3.050293 C4.482361,3.362793 4.0458984,3.724121 3.6474,4.1220703 C3.251892,4.5185547 2.890564,4.9555664 2.5761108,5.419922 C2.2596436,5.88916 1.9862671,6.390625 1.7675781,6.9125977 C1.5429077,7.4438477 1.3699951,7.998535 1.2548828,8.561523 C1.1366577,9.139648 1.0761108,9.73584 1.0761108,10.32959 C1.0761108,10.92627 1.1366577,11.520996 1.2548828,12.097656 C1.3699951,12.662109 1.5429077,13.218262 1.7675781,13.74707 C1.9862671,14.268555 2.2596436,14.771484 2.5761108,15.241211 C2.890564,15.705566 3.251892,16.142578 3.6474,16.53955 C4.0458984,16.936523 4.482361,17.296387 4.9472046,17.609863 C5.4159546,17.928223 5.9189453,18.200195 6.439392,18.421387 C6.9697266,18.64502 7.5253296,18.815918 8.088867,18.932129 C8.667908,19.051758 9.261597,19.111328 9.857422,19.111328 C10.452026,19.111328 11.046814,19.051758 11.625977,18.932129 C12.189392,18.815918 12.746033,18.64502 13.275269,18.421387 C13.796814,18.200195 14.298767,17.928223 14.767517,17.609863 C15.232361,17.296387 15.668945,16.936523 16.066406,16.53955 C16.46283,16.142578 16.824097,15.705566 17.136658,15.241211 C17.455017,14.771484 17.72754,14.268555 17.947266,13.74707 C18.171753,13.218262 18.343628,12.662109 18.45996,12.097656 C18.578003,11.520996 18.637634,10.92627 18.637634,10.32959 C18.637634,9.73584 18.578003,9.139648 18.45996,8.561523 ZM17.353516,10.254395 C17.244995,10.23291 14.70697,9.686035 12.131836,10.009766 C12.078003,9.880859 12.0234375,9.751953 11.969666,9.622559 C11.812378,9.254883 11.644531,8.89209 11.470703,8.534668 C14.431641,7.32666 15.633667,5.5878906 15.648315,5.5664062 C16.700195,6.84375 17.335876,8.476074 17.353516,10.254395 ZM14.810547,4.7026367 C14.791992,4.732422 13.723572,6.3564453 10.892517,7.418457 C9.611267,5.0615234 8.203064,3.1914062 8.090759,3.0429688 C8.658203,2.9057617 9.247986,2.8310547 9.857422,2.8310547 C11.755737,2.8310547 13.488281,3.5395508 14.810547,4.7026367 ZM8.061462,3.0488281 C8.060425,3.050293 8.060425,3.0507812 8.060425,3.0507812 C8.060425,3.0507812 8.051758,3.0527344 8.037109,3.0546875 C8.044922,3.0527344 8.053711,3.052246 8.061462,3.0488281 ZM6.658081,3.5478516 C6.756714,3.682129 8.14447,5.5620117 9.441284,7.868164 C5.841797,8.825195 2.7176514,8.787109 2.5185547,8.784668 C3.0067139,6.461914 4.566345,4.536133 6.658081,3.5478516 ZM2.3583374,10.32959 C2.3583374,10.249023 2.3621826,10.171875 2.3641357,10.092773 C2.4970093,10.096191 6.203064,10.1796875 10.0625,9.024902 C10.27832,9.444824 10.484314,9.872559 10.671753,10.300293 C10.572205,10.326172 10.474609,10.356445 10.375916,10.38916 C6.328064,11.6953125 4.2772827,15.337402 4.2772827,15.337402 C4.2772827,15.337402 4.279236,15.339355 4.279236,15.341797 C3.0859375,14.012207 2.3583374,12.255859 2.3583374,10.32959 ZM9.857422,17.82959 C8.042969,17.82959 6.3778076,17.184082 5.0809937,16.110352 C5.178589,16.190918 5.247925,16.24121 5.247925,16.24121 C5.247925,16.24121 6.685425,13.106934 11.132751,11.556641 C11.150391,11.550781 11.166931,11.544922 11.182495,11.54248 C12.23822,14.283691 12.673828,16.57959 12.784119,17.235352 C11.88562,17.617676 10.896423,17.82959 9.857422,17.82959 ZM14.046875,16.549316 C13.970642,16.09668 13.571228,13.895996 12.58783,11.192383 C15.008728,10.807129 17.106445,11.469727 17.261597,11.520996 C16.927673,13.610352 15.732361,15.413086 14.046875,16.549316 Z"/>
+        </svg>
+      </div>
+      <div class="header__socials-item social__container-item">
+        <svg class="header__socials-icon social__container-icon" xmlns="http://www.w3.org/2000/svg"
+        width="20px" height="18px"  viewBox="0 0 20 18">
+          <path fill-rule="evenodd"
+          d="M18.479492,7.5058594 C18.479492,7.5058594 15.810486,7.5058594 15.810486,7.5058594 C15.810486,7.5058594 15.810486,4.8378906 15.810486,4.8378906 C15.810486,4.6347656 15.645447,4.46875 15.441406,4.46875 C15.441406,4.46875 14.681519,4.46875 14.681519,4.46875 C14.477478,4.46875 14.312439,4.6347656 14.312439,4.8378906 C14.312439,4.8378906 14.312439,7.5058594 14.312439,7.5058594 C14.312439,7.5058594 11.64447,7.5058594 11.64447,7.5058594 C11.441345,7.5058594 11.274353,7.671875 11.274353,7.8759766 C11.274353,7.8759766 11.274353,8.635254 11.274353,8.635254 C11.274353,8.839355 11.441345,9.004883 11.64447,9.004883 C11.64447,9.004883 14.312439,9.004883 14.312439,9.004883 C14.312439,9.004883 14.312439,11.673828 14.312439,11.673828 C14.312439,11.876953 14.477478,12.041992 14.681519,12.041992 C14.681519,12.041992 15.441406,12.041992 15.441406,12.041992 C15.645447,12.041992 15.810486,11.876953 15.810486,11.673828 C15.810486,11.673828 15.810486,9.004883 15.810486,9.004883 C15.810486,9.004883 18.479492,9.004883 18.479492,9.004883 C18.682617,9.004883 18.847595,8.839355 18.847595,8.635254 C18.847595,8.635254 18.847595,7.8759766 18.847595,7.8759766 C18.847595,7.671875 18.682617,7.5058594 18.479492,7.5058594 ZM9.511658,9.845215 C8.951111,9.448242 8.440369,8.864746 8.431519,8.686523 C8.431519,8.359375 8.459961,8.203125 9.191345,7.6347656 C10.137634,6.8935547 10.658081,5.9194336 10.658081,4.892578 C10.658081,3.958496 10.372925,3.130371 9.887695,2.5498047 C9.887695,2.5498047 10.264526,2.5498047 10.264526,2.5498047 C10.342712,2.5498047 10.418823,2.5253906 10.480469,2.4804688 C10.480469,2.4804688 11.531189,1.7197266 11.531189,1.7197266 C11.661987,1.6269531 11.715759,1.4584961 11.666016,1.3061523 C11.616089,1.1538086 11.474548,1.0517578 11.314331,1.0517578 C11.314331,1.0517578 6.6210938,1.0517578 6.6210938,1.0517578 C6.107361,1.0517578 5.5858765,1.1416016 5.073181,1.3178711 C3.3623047,1.9082031 2.1658936,3.3657227 2.1658936,4.8618164 C2.1658936,6.982422 3.8085938,8.589355 6.003784,8.640625 C5.959961,8.809082 5.939392,8.972168 5.939392,9.135742 C5.939392,9.462891 6.022461,9.771973 6.192383,10.069824 C6.1727295,10.071289 6.154297,10.071289 6.131714,10.071289 C4.039978,10.071289 2.149292,11.098633 1.4334717,12.626465 C1.2460327,13.024414 1.1522217,13.425293 1.1522217,13.820801 C1.1522217,14.20752 1.249939,14.57959 1.4452515,14.927734 C1.8955078,15.734375 2.8632202,16.360352 4.171814,16.69043 C4.8466797,16.861816 5.5722656,16.948242 6.326172,16.948242 C7.0028687,16.948242 7.6483154,16.861328 8.244995,16.687012 C10.105469,16.148438 11.308594,14.777344 11.308594,13.196289 C11.308594,11.6796875 10.821167,10.770508 9.511658,9.845215 ZM3.5839233,13.317871 C3.5839233,12.214355 4.9852905,11.245605 6.583008,11.245605 C6.583008,11.245605 6.625,11.24707 6.625,11.24707 C6.9744873,11.251465 7.312439,11.30127 7.633789,11.400391 C7.7440186,11.475586 7.848572,11.547852 7.951111,11.616699 C8.690308,12.121582 9.178589,12.454102 9.315369,12.98877 C9.347656,13.123047 9.364258,13.256348 9.364258,13.387207 C9.364258,14.762207 8.33783,15.459473 6.316345,15.459473 C4.783203,15.459473 3.5839233,14.519531 3.5839233,13.317871 ZM5.0369873,2.8896484 C5.2870483,2.6054688 5.61322,2.4545898 5.982422,2.4545898 C5.982422,2.4545898 6.0233765,2.4545898 6.0233765,2.4545898 C7.060425,2.4848633 8.052612,3.6425781 8.236206,5.0317383 C8.33783,5.8115234 8.164917,6.543457 7.774292,6.9902344 C7.5233154,7.2753906 7.2001953,7.425293 6.819214,7.425293 C6.819214,7.425293 6.819214,7.425293 6.8183594,7.425293 C6.8183594,7.425293 6.801819,7.425293 6.801819,7.425293 C5.785095,7.3950195 4.7714844,6.194336 4.588867,4.804199 C4.4872437,4.027832 4.6503296,3.3305664 5.0369873,2.8896484 Z"/>
+        </svg>
+      </div>
+      <div class="header__socials-item social__container-item">
+        <svg class="header__socials-icon social__container-icon" xmlns="http://www.w3.org/2000/svg"
+        width="21px" height="21px"  viewBox="0 0 21 21">
+          <path fill-rule="evenodd"
+          d="M16.02832,10.095703 C16.02832,10.095703 4.972534,10.095703 4.972534,10.095703 C3.213745,10.095703 1.7889404,11.521973 1.7889404,13.280273 C1.7889404,13.280273 1.7889404,15.837891 1.7889404,15.837891 C1.7889404,17.594727 3.213745,19.020508 4.972534,19.020508 C4.972534,19.020508 16.02832,19.020508 16.02832,19.020508 C17.786133,19.020508 19.210815,17.594727 19.210815,15.837891 C19.210815,15.837891 19.210815,13.280273 19.210815,13.280273 C19.210815,11.521973 17.786133,10.095703 16.02832,10.095703 ZM7.2939453,12.087891 C7.2939453,12.087891 6.2666016,12.087891 6.2666016,12.087891 C6.2666016,12.087891 6.2666016,17.195312 6.2666016,17.195312 C6.2666016,17.195312 5.274414,17.195312 5.274414,17.195312 C5.274414,17.195312 5.274414,12.087891 5.274414,12.087891 C5.274414,12.087891 4.2470703,12.087891 4.2470703,12.087891 C4.2470703,12.087891 4.2470703,11.21875 4.2470703,11.21875 C4.2470703,11.21875 7.2939453,11.21875 7.2939453,11.21875 C7.2939453,11.21875 7.2939453,12.087891 7.2939453,12.087891 ZM10.198242,17.195312 C10.198242,17.195312 9.318237,17.195312 9.318237,17.195312 C9.318237,17.195312 9.318237,16.712402 9.318237,16.712402 C9.154297,16.890137 8.985352,17.026855 8.809448,17.11914 C8.63269,17.215332 8.462891,17.260742 8.296753,17.260742 C8.09375,17.260742 7.9404297,17.195312 7.836914,17.062988 C7.7333984,16.932617 7.6816406,16.73584 7.6816406,16.472168 C7.6816406,16.472168 7.6816406,12.785645 7.6816406,12.785645 C7.6816406,12.785645 8.5625,12.785645 8.5625,12.785645 C8.5625,12.785645 8.5625,16.168945 8.5625,16.168945 C8.5625,16.273438 8.583008,16.347656 8.618042,16.393066 C8.655151,16.442383 8.716797,16.464355 8.798828,16.464355 C8.862305,16.464355 8.9453125,16.435059 9.043945,16.373047 C9.144531,16.310059 9.2352295,16.230957 9.318237,16.135254 C9.318237,16.135254 9.318237,12.785645 9.318237,12.785645 C9.318237,12.785645 10.198242,12.785645 10.198242,12.785645 C10.198242,12.785645 10.198242,17.195312 10.198242,17.195312 ZM13.396484,16.285156 C13.396484,16.59668 13.328125,16.835938 13.189453,17.00293 C13.051636,17.169434 12.850586,17.25293 12.59082,17.25293 C12.417847,17.25293 12.263672,17.220703 12.129883,17.155762 C11.994141,17.092285 11.8671875,16.993164 11.752808,16.856445 C11.752808,16.856445 11.752808,17.195312 11.752808,17.195312 C11.752808,17.195312 10.861206,17.195312 10.861206,17.195312 C10.861206,17.195312 10.861206,11.21875 10.861206,11.21875 C10.861206,11.21875 11.752808,11.21875 11.752808,11.21875 C11.752808,11.21875 11.752808,13.143555 11.752808,13.143555 C11.871094,13.010742 11.998047,12.906738 12.129883,12.837402 C12.265503,12.767578 12.400391,12.732422 12.537109,12.732422 C12.816406,12.732422 13.02832,12.825684 13.176758,13.013672 C13.324219,13.201172 13.396484,13.477051 13.396484,13.837891 C13.396484,13.837891 13.396484,16.285156 13.396484,16.285156 ZM16.452148,15.097656 C16.452148,15.097656 14.768555,15.097656 14.768555,15.097656 C14.768555,15.097656 14.768555,15.927734 14.768555,15.927734 C14.768555,16.159668 14.794922,16.319824 14.852539,16.410156 C14.912109,16.500488 15.012695,16.544922 15.151245,16.544922 C15.2977295,16.544922 15.400391,16.506836 15.458984,16.430664 C15.516602,16.353516 15.545898,16.187012 15.545898,15.927734 C15.545898,15.927734 15.545898,15.7265625 15.545898,15.7265625 C15.545898,15.7265625 16.452148,15.7265625 16.452148,15.7265625 C16.452148,15.7265625 16.452148,15.953125 16.452148,15.953125 C16.452148,16.404785 16.342773,16.745117 16.119995,16.975586 C15.902222,17.203125 15.571289,17.31543 15.131836,17.31543 C14.736328,17.31543 14.424805,17.195312 14.199097,16.95166 C13.973633,16.712402 13.858398,16.378906 13.858398,15.953125 C13.858398,15.953125 13.858398,13.972168 13.858398,13.972168 C13.858398,13.591797 13.983398,13.277344 14.233398,13.037109 C14.483398,12.796387 14.802734,12.676758 15.197144,12.676758 C15.600586,12.676758 15.911133,12.788086 16.12793,13.011719 C16.345703,13.233887 16.452148,13.553711 16.452148,13.972168 C16.452148,13.972168 16.452148,15.097656 16.452148,15.097656 ZM15.15918,13.447266 C15.020508,13.447266 14.918823,13.488281 14.859253,13.5703125 C14.796753,13.647461 14.768555,13.780273 14.768555,13.964355 C14.768555,13.964355 14.768555,14.410156 14.768555,14.410156 C14.768555,14.410156 15.545898,14.410156 15.545898,14.410156 C15.545898,14.410156 15.545898,13.964355 15.545898,13.964355 C15.545898,13.780273 15.514648,13.647461 15.454102,13.5703125 C15.394531,13.488281 15.294922,13.447266 15.15918,13.447266 ZM12.121094,13.432617 C12.058594,13.432617 11.995117,13.445801 11.934448,13.475098 C11.873047,13.50293 11.8125,13.550293 11.752808,13.609863 C11.752808,13.609863 11.752808,16.357422 11.752808,16.357422 C11.823242,16.42871 11.893555,16.483887 11.9609375,16.51416 C12.030151,16.544922 12.099609,16.561523 12.174805,16.561523 C12.2821045,16.561523 12.360352,16.53125 12.411987,16.468262 C12.461914,16.404785 12.487305,16.305664 12.487305,16.163574 C12.487305,16.163574 12.487305,13.886719 12.487305,13.886719 C12.487305,13.736816 12.458008,13.625 12.395508,13.546387 C12.331055,13.470703 12.239258,13.432617 12.121094,13.432617 ZM6.419922,8.564453 C6.419922,8.564453 7.5360107,8.564453 7.5360107,8.564453 C7.5360107,8.564453 7.5360107,5.833008 7.5360107,5.833008 C7.5360107,5.833008 8.836914,1.9790039 8.836914,1.9790039 C8.836914,1.9790039 7.70105,1.9790039 7.70105,1.9790039 C7.70105,1.9790039 7.01062,4.6123047 7.01062,4.6123047 C7.01062,4.6123047 6.939331,4.6123047 6.939331,4.6123047 C6.939331,4.6123047 6.213867,1.9790039 6.213867,1.9790039 C6.213867,1.9790039 5.0897217,1.9790039 5.0897217,1.9790039 C5.0897217,1.9790039 6.419922,5.955078 6.419922,5.955078 C6.419922,5.955078 6.419922,8.564453 6.419922,8.564453 ZM10.349609,8.686523 C10.800781,8.686523 11.154297,8.568848 11.4140625,8.332031 C11.668823,8.094727 11.797852,7.770508 11.797852,7.354492 C11.797852,7.354492 11.797852,4.8466797 11.797852,4.8466797 C11.797852,4.476074 11.666016,4.1713867 11.405151,3.9375 C11.142578,3.7016602 10.805664,3.5839844 10.394409,3.5839844 C9.944214,3.5839844 9.584839,3.6972656 9.318237,3.9189453 C9.050781,4.1416016 8.916992,4.4404297 8.916992,4.8168945 C8.916992,4.8168945 8.916992,7.3344727 8.916992,7.3344727 C8.916992,7.748047 9.047852,8.075195 9.307617,8.3203125 C9.567383,8.564453 9.916992,8.686523 10.349609,8.686523 ZM9.9383545,4.779785 C9.9383545,4.6757812 9.977539,4.5893555 10.050781,4.5234375 C10.128906,4.458008 10.225586,4.425293 10.34668,4.425293 C10.478394,4.425293 10.584839,4.458008 10.666016,4.5234375 C10.746094,4.5893555 10.786011,4.6757812 10.786011,4.779785 C10.786011,4.779785 10.786011,7.4277344 10.786011,7.4277344 C10.786011,7.5566406 10.74707,7.659668 10.666992,7.734375 C10.586914,7.8081055 10.4823,7.8447266 10.34668,7.8447266 C10.214722,7.8447266 10.114136,7.8095703 10.043945,7.736328 C9.974609,7.663086 9.9383545,7.560547 9.9383545,7.4277344 C9.9383545,7.4277344 9.9383545,4.779785 9.9383545,4.779785 ZM13.295898,8.635742 C13.481323,8.635742 13.672852,8.582031 13.870117,8.47998 C14.069214,8.375977 14.260742,8.224121 14.441406,8.027344 C14.441406,8.027344 14.441406,8.564453 14.441406,8.564453 C14.441406,8.564453 15.43457,8.564453 15.43457,8.564453 C15.43457,8.564453 15.43457,3.7075195 15.43457,3.7075195 C15.43457,3.7075195 14.441406,3.7075195 14.441406,3.7075195 C14.441406,3.7075195 14.441406,7.394043 14.441406,7.394043 C14.349609,7.5 14.246948,7.5878906 14.135742,7.6552734 C14.024414,7.7231445 13.931641,7.7578125 13.858398,7.7578125 C13.765625,7.7578125 13.696289,7.732422 13.6571045,7.680664 C13.616211,7.6289062 13.592773,7.5444336 13.592773,7.430176 C13.592773,7.430176 13.592773,3.7075195 13.592773,3.7075195 C13.592773,3.7075195 12.602417,3.7075195 12.602417,3.7075195 C12.602417,3.7075195 12.602417,7.7666016 12.602417,7.7666016 C12.602417,8.056641 12.661011,8.271973 12.776367,8.416016 C12.893555,8.561035 13.06543,8.635742 13.295898,8.635742 Z"/>
+        </svg>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+      <div class="header__main">
+        <span class="header__subtitle">
+          WE CAN DO IT
+        </span>
+        <h1 class="header__title">
+          <span>OUR MISSION</span> IS TO MAKE <span>YOUR
+          BUSINESS</span> UP
+        </h1>
+        <a class="header__btn btn" href="#">
+          START TOUR NOW
+        </a>
+      </div>
+    </div>
+</header>
+<!-- Header -->
+
+<!-- Download -->
+<div class="download">
+  <div class="container">
+    <div class="download__inner">
+      <p class="download__text">
+        BEST PSD TEMPLATE FOR YOUR WEBSITE,DOWNLOAD NOW
+      </p>
+      <button class="download__btn" href="#" type="button">
+        DOWNLOAD NOW
+      </button>
+    </div>
+  </div>
+</div>
+<!-- Download -->
+
+<!-- Beginning -->
+<section class="beginning">
+  <div class="container">
+    <div class="beginning__inner">
+      <div class="beginning__left">
+        <div class="beginning__top section__top">
+          <h2 class="beginning__title section__title">
+            OUR BEGINNING
+          </h2>
+          <p class="beginning__subtitle section__subtitle">
+            CLOSER TO THE STARS
+          </p>
+        </div>
+        <div class="beginning__left-content">
+          <p class="beginning__left-text">
+            Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet 
+            nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Proin 
+            eget tortor risus. Nulla porttitor accumsan tincidunt. Nulla porttitor 
+            accumsan tincidunt. 
+          </p>
+          <p class="beginning__left-text">
+            Curabitur aliquet quam id dui posuere blandit. 
+            Nulla quis lorem ut libero malesuada feugiat. Donec rutrum congue leo 
+            eget malesuada. Curabitur aliquet quam id dui posuere blandit.
+          </p>
+        </div>
+        <button class="beginning__left-link btn">
+          SEE PORTFOLIO
+        </button>
+      </div>
+      <div class="beginning__right">
+        <div class="beginning__right-content">
+          <img class="beginning__right-img" src="images/beginning.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Beginning -->
+
+<!-- Video -->
+<section class="video" style="background-image: url(images/video.jpg);">
+  <div class="video__content">
+    <h3 class="video__title">
+      SEE OUR VIDEO
+    </h3>
+    <a class="video__btn" data-fancybox href="https://youtu.be/8ZKWjlRxdok">
+      <img class="video__btn-img" src="images/play_icon.svg" alt="">
+    </a>
+  </div>
+</section>
+<!-- Video -->
+
+<!-- Portfolio -->
+<section class="portfolio section">
+  <div class="container">
+    <div class="container">
+      <div class="portfolio__top section__top">
+        <h2 class="portfolio__title section__title">
+          PORTFOLIO
+        </h2>
+        <p class="portfolio__subtitle section__subtitle">
+          SEE OUR BEST WORK SO FAR
+        </p>
+        <p class="portfolio__text section__text">
+          Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis 
+          quis ac lectus. Sed porttitor lectus nibh. Proin eget tortor risus. Nulla porttitor accumsan tincidunt. 
+          Nulla porttitor accumsan tincidunt.
+        </p>
+      </div>
+      <div class="portfolio__menu">
+        <button class="portfolio__menu-btn btn" data-filter=".category-branding">BRANDING</button>
+        <button class="portfolio__menu-btn btn" data-filter=".category-photography">PHOTOGRAPHY</button>
+        <button class="portfolio__menu-btn btn" data-filter=".category-videodesign">WEB DESIGN</button>
+        <button class="portfolio__menu-btn btn" data-filter=".category-appdesign">APP DESIGN</button>
+      </div>
+      <div class="portfolio__inner">
+          <div class="portfolio__inner-item mix category-branding">
+            <img class="portfolio__inner-img" src="images/portfolio/branding/branding-1.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-branding">
+            <img class="portfolio__inner-img" src="images/portfolio/branding/branding-2.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-branding">
+            <img class="portfolio__inner-img" src="images/portfolio/branding/branding-3.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-branding">
+            <img class="portfolio__inner-img" src="images/portfolio/branding/branding-4.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-branding">
+            <img class="portfolio__inner-img" src="images/portfolio/branding/branding-5.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-branding">
+            <img class="portfolio__inner-img" src="images/portfolio/branding/branding-6.jpg" alt="">
+          </div>
+
+          <div class="portfolio__inner-item mix category-photography">
+            <img class="portfolio__inner-img" src="images/portfolio/photography/photography-1.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-photography">
+            <img class="portfolio__inner-img" src="images/portfolio/photography/photography-2.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-photography">
+            <img class="portfolio__inner-img" src="images/portfolio/photography/photography-3.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-photography">
+            <img class="portfolio__inner-img" src="images/portfolio/photography/photography-4.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-photography">
+            <img class="portfolio__inner-img" src="images/portfolio/photography/photography-5.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-photography">
+            <img class="portfolio__inner-img" src="images/portfolio/photography/photography-6.jpg" alt="">
+          </div>
+
+          <div class="portfolio__inner-item mix category-videodesign">
+            <img class="portfolio__inner-img" src="images/portfolio/video-design/video-desing-1.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-videodesign">
+            <img class="portfolio__inner-img" src="images/portfolio/video-design/video-desing-2.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-videodesign">
+            <img class="portfolio__inner-img" src="images/portfolio/video-design/video-desing-3.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-videodesign">
+            <img class="portfolio__inner-img" src="images/portfolio/video-design/video-desing-4.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-videodesign">
+            <img class="portfolio__inner-img" src="images/portfolio/video-design/video-desing-5.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-videodesign">
+            <img class="portfolio__inner-img" src="images/portfolio/video-design/video-desing-6.jpg" alt="">
+          </div>
+
+          <div class="portfolio__inner-item mix category-appdesign">
+            <img class="portfolio__inner-img" src="images/portfolio/app-design/app-design-1.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-appdesign">
+            <img class="portfolio__inner-img" src="images/portfolio/app-design/app-design-2.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-appdesign">
+            <img class="portfolio__inner-img" src="images/portfolio/app-design/app-design-3.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-appdesign">
+            <img class="portfolio__inner-img" src="images/portfolio/app-design/app-design-4.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-appdesign">
+            <img class="portfolio__inner-img" src="images/portfolio/app-design/app-design-5.jpg" alt="">
+          </div>
+          <div class="portfolio__inner-item mix category-appdesign">
+            <img class="portfolio__inner-img" src="images/portfolio/app-design/app-design-6.jpg" alt="">
+          </div>
+      </div>
+      <div class="portfolio__btn">
+        <a class="portfolio__btn-link btn" href="#">
+          SEE MORE
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Portfolio -->
+
+<!-- Testimonial -->
+<section class="testimonial">
+  <div class="container">
+    <div class="testimonial__inner">
+      <img class="testimonial__img" src="images/quotes_icon.svg" alt="">
+      <p class="testimonial__text">
+        LOREM IPSUM DOLOR SIT, AD ETIAM SIT ONER 
+        OL DEIAN BOST SIT EMIST.
+      </p>
+      <h4 class="testimonial__name">
+        WILL STEPHENSON
+      </h4>
+    </div>
+  </div>
+</section>
+<!-- Testimonial -->
+
+<!-- About -->
+<section class="about section">
+  <div class="container">
+    <div class="about__top section__top">
+      <h2 class="about__title section__title">
+        ABOUT US
+      </h2>
+      <p class="about__subtitle section__subtitle">
+        WHO WE ARE
+      </p>
+      <p class="about__text section__text">
+        Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis 
+        quis ac lectus. Sed porttitor lectus nibh. Proin eget tortor risus. Nulla porttitor accumsan tincidunt. 
+        Nulla porttitor accumsan tincidunt.
+      </p>
+    </div>
+    <div class="about__inner">
+      <div class="about__item">
+        <div class="about__item-photo">
+          <img class="about__item-img" src="images/team-1.jpg" alt="">
+        </div>
+        <div class="about__item-info">
+          <h5 class="about__item-name">
+            JOHN STEPHENSON
+          </h5>
+        </div>
+      </div>
+      <div class="about__item">
+        <div class="about__item-photo">
+          <img class="about__item-img" src="images/team-2.jpg" alt="">
+        </div>
+        <div class="about__item-info">
+          <h5 class="about__item-name">
+            JOHN STEPHENSON
+          </h5>
+        </div>
+      </div>
+      <div class="about__item">
+        <div class="about__item-photo">
+          <img class="about__item-img" src="images/team-3.jpg" alt="">
+        </div>
+        <div class="about__item-info">
+          <h5 class="about__item-name">
+            JOHN STEPHENSON
+          </h5>
+        </div>
+      </div>
+      <div class="about__item">
+        <div class="about__item-photo">
+          <img class="about__item-img" src="images/team-4.jpg" alt="">
+        </div>
+        <div class="about__item-info">
+          <h5 class="about__item-name">
+            JOHN STEPHENSON
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="about__info">
+      <div class="about__info-item">
+        <h5 class="about__info-title">
+          ABOUT US
+        </h5>
+        <p class="about__info-text">
+          Donec rutrum congue leo eget malesuada.Curab
+          non nulla sit amet nisl tempus convallis quis ac 
+          lectus. Sed porttitor nih.Proin eget tortor risus. 
+          Nulla porttitor accumsan tinci dunt. Nulla 
+          porttitor.
+        </p>
+      </div>
+      <div class="about__info-item">
+        <h5 class="about__info-title">
+          WHO WE ARE
+        </h5>
+        <p class="about__info-text">
+          Donec rutrum congue leo eget malesuada.Curab
+          non nulla sit amet nisl tempus convallis quis ac 
+          lectus. Sed porttitor nih.
+        </p>
+      </div>
+      <div class="about__info-item">
+        <h5 class="about__info-title">
+          ABOUT US
+        </h5>
+        <p class="about__info-text">
+          Donec rutrum congue leo eget malesuada.Curab
+          non nulla sit amet nisl tempus convallis quis ac 
+          lectus. Sed porttitor nih.Proin eget tortor risus. 
+          Nulla porttitor accumsan tinci dunt.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About -->
+
+<!-- Newsletter -->
+<section class="newsletter section">
+  <div class="container">
+    <div class="newsletter__inner">
+      <h6 class="newsletter__title">
+        SUBSCRIBE TO OUR NEWSLETTER
+      </h6>
+      <form class="newsletter__form">
+        <div class="form__input-wrapper">
+          <input class="newsletter__input" type="email" placeholder="EMAIL ADDRESS">
+        </div>
+        <button class="newsletter__btn btn" type="submit">
+          SUBSCRIBE
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- Newsletter -->
+
+<!-- Contact -->
+<section class="contact section">
+  <div class="container">
+    <div class="contact__top section__top">
+      <h2 class="contact__title section__title">
+        CONTACT US
+      </h2>
+      <p class="contact__subtitle section__subtitle">
+        WE LOVE TALKING
+      </p>
+      <p class="contact__text section__text">
+        Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis 
+        quis ac lectus. Sed porttitor lectus nibh. Proin eget tortor risus. Nulla porttitor accumsan tincidunt. 
+        Nulla porttitor accumsan tincidunt.
+      </p>
+    </div>
+    <div class="contact__inner">
+      <div class="contact__item">
+        <a class="contact__item-content contact__item--mail" href="#">
+          somemail@mail.com
+        </a>
+      </div>
+      <div class="contact__item">
+        <address class="contact__item-content contact__item--address">
+          T317 Timber Oak Drive
+          Sundown, TX 79372
+        </address>
+      </div>
+      <div class="contact__item">
+        <a class="contact__item-content contact__item--phone" href="#">
+          +000 - 123 - 456 - 789
+        </a>
+      </div>
+    </div>
+    <form class="contact__form">
+      <div class="contact__form-inputs">
+        <input class="contact__form-input" type="text" placeholder="Subject*">
+        <input class="contact__form-input" type="text" placeholder="Name*">
+        <input class="contact__form-input" type="text" placeholder="Email*">
+      </div>
+      <textarea class="contact__form-textarea" placeholder="Message*"></textarea>
+      <button class="contact__form-btn btn" type="submit">
+        SUBMIT
+      </button>
+    </form>
+  </div>
+</section>
+<!-- Contact -->
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <a class="footer__logo" href="#">
+        <img class="footer__logo-img" src="images/logo.png" alt="">
+      </a>
+      <div class="footer__socials social__container">
+        <div class="footer__socials-item social__container-item">
+          <svg class="footer__socials-icon social__container-icon" xmlns="http://www.w3.org/2000/svg"
+           width="11px" height="20px"  viewBox="0 0 11 20">
+            <path fill-rule="evenodd"
+            d="M9.614197,7.0629883 C9.614197,7.0629883 6.8983765,7.0629883 6.8983765,7.0629883 C6.8983765,7.0629883 6.8983765,5.282715 6.8983765,5.282715 C6.8983765,4.6132812 7.341736,4.458496 7.654297,4.458496 C7.9657593,4.458496 9.570251,4.458496 9.570251,4.458496 C9.570251,4.458496 9.570251,1.5175781 9.570251,1.5175781 C9.570251,1.5175781 6.930664,1.5078125 6.930664,1.5078125 C4.0009766,1.5078125 3.334961,3.699707 3.334961,5.104004 C3.334961,5.104004 3.334961,7.0629883 3.334961,7.0629883 C3.334961,7.0629883 1.6405029,7.0629883 1.6405029,7.0629883 C1.6405029,7.0629883 1.6405029,10.092773 1.6405029,10.092773 C1.6405029,10.092773 3.334961,10.092773 3.334961,10.092773 C3.334961,13.981445 3.334961,18.666016 3.334961,18.666016 C3.334961,18.666016 6.8983765,18.666016 6.8983765,18.666016 C6.8983765,18.666016 6.8983765,13.935547 6.8983765,10.092773 C6.8983765,10.092773 9.303711,10.092773 9.303711,10.092773 C9.303711,10.092773 9.614197,7.0629883 9.614197,7.0629883 Z"/>
+          </svg>
+        </div>
+        <div class="footer__socials-item social__container-item">
+          <svg class="footer__socials-icon social__container-icon" xmlns="http://www.w3.org/2000/svg"
+          width="20px" height="17px"  viewBox="0 0 20 17">
+            <path fill-rule="evenodd"
+            d="M18.707947,3.409668 C18.065369,3.6953125 17.374023,3.8876953 16.6474,3.9746094 C17.387634,3.5307617 17.958008,2.8276367 18.225586,1.9887695 C17.53125,2.400879 16.762695,2.699707 15.946228,2.8608398 C15.290955,2.161621 14.357361,1.7260742 13.325073,1.7260742 C11.342773,1.7260742 9.735291,3.3344727 9.735291,5.3168945 C9.735291,5.5966797 9.767578,5.870117 9.828125,6.133789 C6.8446655,5.9853516 4.1990967,4.5561523 2.428711,2.3833008 C2.1200562,2.9125977 1.9423218,3.5307617 1.9423218,4.1884766 C1.9423218,5.434082 2.5761108,6.5317383 3.5390015,7.177246 C2.9511108,7.157715 2.3973389,6.996582 1.9130249,6.727051 C1.9130249,6.742676 1.9130249,6.757324 1.9130249,6.772949 C1.9130249,8.510742 3.1503906,9.962402 4.7938843,10.293457 C4.49115,10.374512 4.1747437,10.417969 3.8466187,10.417969 C3.61615,10.417969 3.390564,10.396484 3.171753,10.354004 C3.6278076,11.780762 4.9541016,12.817383 6.524292,12.848145 C5.2957764,13.80957 3.7479858,14.383789 2.0664062,14.383789 C1.7763062,14.383789 1.4912109,14.367676 1.2098999,14.334473 C2.7997437,15.352051 4.6865234,15.947754 6.713867,15.947754 C13.317322,15.947754 16.927673,10.477051 16.927673,5.73291 C16.927673,5.5771484 16.924683,5.4223633 16.916931,5.2680664 C17.618103,4.762207 18.22754,4.1289062 18.707947,3.409668 Z"/>
+          </svg>
+        </div>
+        <div class="footer__socials-item social__container-item">
+          <svg class="footer__socials-icon social__container-icon" xmlns="http://www.w3.org/2000/svg"
+          width="20px" height="21px"  viewBox="0 0 20 21">
+            <path fill-rule="evenodd"
+            d="M18.45996,8.561523 C18.343628,7.998535 18.171753,7.4438477 17.947266,6.9125977 C17.72754,6.390625 17.455017,5.88916 17.136658,5.419922 C16.824097,4.9555664 16.46283,4.5185547 16.066406,4.1220703 C15.668945,3.724121 15.232361,3.362793 14.767517,3.050293 C14.298767,2.7319336 13.796814,2.4594727 13.275269,2.2382812 C12.746033,2.0161133 12.189392,1.8427734 11.625977,1.7290039 C11.046814,1.6098633 10.452026,1.5493164 9.857422,1.5493164 C9.261597,1.5493164 8.667908,1.6098633 8.088867,1.7290039 C7.5253296,1.8427734 6.9697266,2.0161133 6.439392,2.2382812 C5.9189453,2.4594727 5.4159546,2.7319336 4.9472046,3.050293 C4.482361,3.362793 4.0458984,3.724121 3.6474,4.1220703 C3.251892,4.5185547 2.890564,4.9555664 2.5761108,5.419922 C2.2596436,5.88916 1.9862671,6.390625 1.7675781,6.9125977 C1.5429077,7.4438477 1.3699951,7.998535 1.2548828,8.561523 C1.1366577,9.139648 1.0761108,9.73584 1.0761108,10.32959 C1.0761108,10.92627 1.1366577,11.520996 1.2548828,12.097656 C1.3699951,12.662109 1.5429077,13.218262 1.7675781,13.74707 C1.9862671,14.268555 2.2596436,14.771484 2.5761108,15.241211 C2.890564,15.705566 3.251892,16.142578 3.6474,16.53955 C4.0458984,16.936523 4.482361,17.296387 4.9472046,17.609863 C5.4159546,17.928223 5.9189453,18.200195 6.439392,18.421387 C6.9697266,18.64502 7.5253296,18.815918 8.088867,18.932129 C8.667908,19.051758 9.261597,19.111328 9.857422,19.111328 C10.452026,19.111328 11.046814,19.051758 11.625977,18.932129 C12.189392,18.815918 12.746033,18.64502 13.275269,18.421387 C13.796814,18.200195 14.298767,17.928223 14.767517,17.609863 C15.232361,17.296387 15.668945,16.936523 16.066406,16.53955 C16.46283,16.142578 16.824097,15.705566 17.136658,15.241211 C17.455017,14.771484 17.72754,14.268555 17.947266,13.74707 C18.171753,13.218262 18.343628,12.662109 18.45996,12.097656 C18.578003,11.520996 18.637634,10.92627 18.637634,10.32959 C18.637634,9.73584 18.578003,9.139648 18.45996,8.561523 ZM17.353516,10.254395 C17.244995,10.23291 14.70697,9.686035 12.131836,10.009766 C12.078003,9.880859 12.0234375,9.751953 11.969666,9.622559 C11.812378,9.254883 11.644531,8.89209 11.470703,8.534668 C14.431641,7.32666 15.633667,5.5878906 15.648315,5.5664062 C16.700195,6.84375 17.335876,8.476074 17.353516,10.254395 ZM14.810547,4.7026367 C14.791992,4.732422 13.723572,6.3564453 10.892517,7.418457 C9.611267,5.0615234 8.203064,3.1914062 8.090759,3.0429688 C8.658203,2.9057617 9.247986,2.8310547 9.857422,2.8310547 C11.755737,2.8310547 13.488281,3.5395508 14.810547,4.7026367 ZM8.061462,3.0488281 C8.060425,3.050293 8.060425,3.0507812 8.060425,3.0507812 C8.060425,3.0507812 8.051758,3.0527344 8.037109,3.0546875 C8.044922,3.0527344 8.053711,3.052246 8.061462,3.0488281 ZM6.658081,3.5478516 C6.756714,3.682129 8.14447,5.5620117 9.441284,7.868164 C5.841797,8.825195 2.7176514,8.787109 2.5185547,8.784668 C3.0067139,6.461914 4.566345,4.536133 6.658081,3.5478516 ZM2.3583374,10.32959 C2.3583374,10.249023 2.3621826,10.171875 2.3641357,10.092773 C2.4970093,10.096191 6.203064,10.1796875 10.0625,9.024902 C10.27832,9.444824 10.484314,9.872559 10.671753,10.300293 C10.572205,10.326172 10.474609,10.356445 10.375916,10.38916 C6.328064,11.6953125 4.2772827,15.337402 4.2772827,15.337402 C4.2772827,15.337402 4.279236,15.339355 4.279236,15.341797 C3.0859375,14.012207 2.3583374,12.255859 2.3583374,10.32959 ZM9.857422,17.82959 C8.042969,17.82959 6.3778076,17.184082 5.0809937,16.110352 C5.178589,16.190918 5.247925,16.24121 5.247925,16.24121 C5.247925,16.24121 6.685425,13.106934 11.132751,11.556641 C11.150391,11.550781 11.166931,11.544922 11.182495,11.54248 C12.23822,14.283691 12.673828,16.57959 12.784119,17.235352 C11.88562,17.617676 10.896423,17.82959 9.857422,17.82959 ZM14.046875,16.549316 C13.970642,16.09668 13.571228,13.895996 12.58783,11.192383 C15.008728,10.807129 17.106445,11.469727 17.261597,11.520996 C16.927673,13.610352 15.732361,15.413086 14.046875,16.549316 Z"/>
+          </svg>
+        </div>
+        <div class="footer__socials-item social__container-item">
+          <svg class="footer__socials-icon social__container-icon" xmlns="http://www.w3.org/2000/svg"
+          width="20px" height="18px"  viewBox="0 0 20 18">
+            <path fill-rule="evenodd"
+            d="M18.479492,7.5058594 C18.479492,7.5058594 15.810486,7.5058594 15.810486,7.5058594 C15.810486,7.5058594 15.810486,4.8378906 15.810486,4.8378906 C15.810486,4.6347656 15.645447,4.46875 15.441406,4.46875 C15.441406,4.46875 14.681519,4.46875 14.681519,4.46875 C14.477478,4.46875 14.312439,4.6347656 14.312439,4.8378906 C14.312439,4.8378906 14.312439,7.5058594 14.312439,7.5058594 C14.312439,7.5058594 11.64447,7.5058594 11.64447,7.5058594 C11.441345,7.5058594 11.274353,7.671875 11.274353,7.8759766 C11.274353,7.8759766 11.274353,8.635254 11.274353,8.635254 C11.274353,8.839355 11.441345,9.004883 11.64447,9.004883 C11.64447,9.004883 14.312439,9.004883 14.312439,9.004883 C14.312439,9.004883 14.312439,11.673828 14.312439,11.673828 C14.312439,11.876953 14.477478,12.041992 14.681519,12.041992 C14.681519,12.041992 15.441406,12.041992 15.441406,12.041992 C15.645447,12.041992 15.810486,11.876953 15.810486,11.673828 C15.810486,11.673828 15.810486,9.004883 15.810486,9.004883 C15.810486,9.004883 18.479492,9.004883 18.479492,9.004883 C18.682617,9.004883 18.847595,8.839355 18.847595,8.635254 C18.847595,8.635254 18.847595,7.8759766 18.847595,7.8759766 C18.847595,7.671875 18.682617,7.5058594 18.479492,7.5058594 ZM9.511658,9.845215 C8.951111,9.448242 8.440369,8.864746 8.431519,8.686523 C8.431519,8.359375 8.459961,8.203125 9.191345,7.6347656 C10.137634,6.8935547 10.658081,5.9194336 10.658081,4.892578 C10.658081,3.958496 10.372925,3.130371 9.887695,2.5498047 C9.887695,2.5498047 10.264526,2.5498047 10.264526,2.5498047 C10.342712,2.5498047 10.418823,2.5253906 10.480469,2.4804688 C10.480469,2.4804688 11.531189,1.7197266 11.531189,1.7197266 C11.661987,1.6269531 11.715759,1.4584961 11.666016,1.3061523 C11.616089,1.1538086 11.474548,1.0517578 11.314331,1.0517578 C11.314331,1.0517578 6.6210938,1.0517578 6.6210938,1.0517578 C6.107361,1.0517578 5.5858765,1.1416016 5.073181,1.3178711 C3.3623047,1.9082031 2.1658936,3.3657227 2.1658936,4.8618164 C2.1658936,6.982422 3.8085938,8.589355 6.003784,8.640625 C5.959961,8.809082 5.939392,8.972168 5.939392,9.135742 C5.939392,9.462891 6.022461,9.771973 6.192383,10.069824 C6.1727295,10.071289 6.154297,10.071289 6.131714,10.071289 C4.039978,10.071289 2.149292,11.098633 1.4334717,12.626465 C1.2460327,13.024414 1.1522217,13.425293 1.1522217,13.820801 C1.1522217,14.20752 1.249939,14.57959 1.4452515,14.927734 C1.8955078,15.734375 2.8632202,16.360352 4.171814,16.69043 C4.8466797,16.861816 5.5722656,16.948242 6.326172,16.948242 C7.0028687,16.948242 7.6483154,16.861328 8.244995,16.687012 C10.105469,16.148438 11.308594,14.777344 11.308594,13.196289 C11.308594,11.6796875 10.821167,10.770508 9.511658,9.845215 ZM3.5839233,13.317871 C3.5839233,12.214355 4.9852905,11.245605 6.583008,11.245605 C6.583008,11.245605 6.625,11.24707 6.625,11.24707 C6.9744873,11.251465 7.312439,11.30127 7.633789,11.400391 C7.7440186,11.475586 7.848572,11.547852 7.951111,11.616699 C8.690308,12.121582 9.178589,12.454102 9.315369,12.98877 C9.347656,13.123047 9.364258,13.256348 9.364258,13.387207 C9.364258,14.762207 8.33783,15.459473 6.316345,15.459473 C4.783203,15.459473 3.5839233,14.519531 3.5839233,13.317871 ZM5.0369873,2.8896484 C5.2870483,2.6054688 5.61322,2.4545898 5.982422,2.4545898 C5.982422,2.4545898 6.0233765,2.4545898 6.0233765,2.4545898 C7.060425,2.4848633 8.052612,3.6425781 8.236206,5.0317383 C8.33783,5.8115234 8.164917,6.543457 7.774292,6.9902344 C7.5233154,7.2753906 7.2001953,7.425293 6.819214,7.425293 C6.819214,7.425293 6.819214,7.425293 6.8183594,7.425293 C6.8183594,7.425293 6.801819,7.425293 6.801819,7.425293 C5.785095,7.3950195 4.7714844,6.194336 4.588867,4.804199 C4.4872437,4.027832 4.6503296,3.3305664 5.0369873,2.8896484 Z"/>
+          </svg>
+        </div>
+        <div class="footer__socials-item social__container-item">
+          <svg class="footer__socials-icon social__container-icon" xmlns="http://www.w3.org/2000/svg"
+          width="21px" height="21px"  viewBox="0 0 21 21">
+            <path fill-rule="evenodd"
+            d="M16.02832,10.095703 C16.02832,10.095703 4.972534,10.095703 4.972534,10.095703 C3.213745,10.095703 1.7889404,11.521973 1.7889404,13.280273 C1.7889404,13.280273 1.7889404,15.837891 1.7889404,15.837891 C1.7889404,17.594727 3.213745,19.020508 4.972534,19.020508 C4.972534,19.020508 16.02832,19.020508 16.02832,19.020508 C17.786133,19.020508 19.210815,17.594727 19.210815,15.837891 C19.210815,15.837891 19.210815,13.280273 19.210815,13.280273 C19.210815,11.521973 17.786133,10.095703 16.02832,10.095703 ZM7.2939453,12.087891 C7.2939453,12.087891 6.2666016,12.087891 6.2666016,12.087891 C6.2666016,12.087891 6.2666016,17.195312 6.2666016,17.195312 C6.2666016,17.195312 5.274414,17.195312 5.274414,17.195312 C5.274414,17.195312 5.274414,12.087891 5.274414,12.087891 C5.274414,12.087891 4.2470703,12.087891 4.2470703,12.087891 C4.2470703,12.087891 4.2470703,11.21875 4.2470703,11.21875 C4.2470703,11.21875 7.2939453,11.21875 7.2939453,11.21875 C7.2939453,11.21875 7.2939453,12.087891 7.2939453,12.087891 ZM10.198242,17.195312 C10.198242,17.195312 9.318237,17.195312 9.318237,17.195312 C9.318237,17.195312 9.318237,16.712402 9.318237,16.712402 C9.154297,16.890137 8.985352,17.026855 8.809448,17.11914 C8.63269,17.215332 8.462891,17.260742 8.296753,17.260742 C8.09375,17.260742 7.9404297,17.195312 7.836914,17.062988 C7.7333984,16.932617 7.6816406,16.73584 7.6816406,16.472168 C7.6816406,16.472168 7.6816406,12.785645 7.6816406,12.785645 C7.6816406,12.785645 8.5625,12.785645 8.5625,12.785645 C8.5625,12.785645 8.5625,16.168945 8.5625,16.168945 C8.5625,16.273438 8.583008,16.347656 8.618042,16.393066 C8.655151,16.442383 8.716797,16.464355 8.798828,16.464355 C8.862305,16.464355 8.9453125,16.435059 9.043945,16.373047 C9.144531,16.310059 9.2352295,16.230957 9.318237,16.135254 C9.318237,16.135254 9.318237,12.785645 9.318237,12.785645 C9.318237,12.785645 10.198242,12.785645 10.198242,12.785645 C10.198242,12.785645 10.198242,17.195312 10.198242,17.195312 ZM13.396484,16.285156 C13.396484,16.59668 13.328125,16.835938 13.189453,17.00293 C13.051636,17.169434 12.850586,17.25293 12.59082,17.25293 C12.417847,17.25293 12.263672,17.220703 12.129883,17.155762 C11.994141,17.092285 11.8671875,16.993164 11.752808,16.856445 C11.752808,16.856445 11.752808,17.195312 11.752808,17.195312 C11.752808,17.195312 10.861206,17.195312 10.861206,17.195312 C10.861206,17.195312 10.861206,11.21875 10.861206,11.21875 C10.861206,11.21875 11.752808,11.21875 11.752808,11.21875 C11.752808,11.21875 11.752808,13.143555 11.752808,13.143555 C11.871094,13.010742 11.998047,12.906738 12.129883,12.837402 C12.265503,12.767578 12.400391,12.732422 12.537109,12.732422 C12.816406,12.732422 13.02832,12.825684 13.176758,13.013672 C13.324219,13.201172 13.396484,13.477051 13.396484,13.837891 C13.396484,13.837891 13.396484,16.285156 13.396484,16.285156 ZM16.452148,15.097656 C16.452148,15.097656 14.768555,15.097656 14.768555,15.097656 C14.768555,15.097656 14.768555,15.927734 14.768555,15.927734 C14.768555,16.159668 14.794922,16.319824 14.852539,16.410156 C14.912109,16.500488 15.012695,16.544922 15.151245,16.544922 C15.2977295,16.544922 15.400391,16.506836 15.458984,16.430664 C15.516602,16.353516 15.545898,16.187012 15.545898,15.927734 C15.545898,15.927734 15.545898,15.7265625 15.545898,15.7265625 C15.545898,15.7265625 16.452148,15.7265625 16.452148,15.7265625 C16.452148,15.7265625 16.452148,15.953125 16.452148,15.953125 C16.452148,16.404785 16.342773,16.745117 16.119995,16.975586 C15.902222,17.203125 15.571289,17.31543 15.131836,17.31543 C14.736328,17.31543 14.424805,17.195312 14.199097,16.95166 C13.973633,16.712402 13.858398,16.378906 13.858398,15.953125 C13.858398,15.953125 13.858398,13.972168 13.858398,13.972168 C13.858398,13.591797 13.983398,13.277344 14.233398,13.037109 C14.483398,12.796387 14.802734,12.676758 15.197144,12.676758 C15.600586,12.676758 15.911133,12.788086 16.12793,13.011719 C16.345703,13.233887 16.452148,13.553711 16.452148,13.972168 C16.452148,13.972168 16.452148,15.097656 16.452148,15.097656 ZM15.15918,13.447266 C15.020508,13.447266 14.918823,13.488281 14.859253,13.5703125 C14.796753,13.647461 14.768555,13.780273 14.768555,13.964355 C14.768555,13.964355 14.768555,14.410156 14.768555,14.410156 C14.768555,14.410156 15.545898,14.410156 15.545898,14.410156 C15.545898,14.410156 15.545898,13.964355 15.545898,13.964355 C15.545898,13.780273 15.514648,13.647461 15.454102,13.5703125 C15.394531,13.488281 15.294922,13.447266 15.15918,13.447266 ZM12.121094,13.432617 C12.058594,13.432617 11.995117,13.445801 11.934448,13.475098 C11.873047,13.50293 11.8125,13.550293 11.752808,13.609863 C11.752808,13.609863 11.752808,16.357422 11.752808,16.357422 C11.823242,16.42871 11.893555,16.483887 11.9609375,16.51416 C12.030151,16.544922 12.099609,16.561523 12.174805,16.561523 C12.2821045,16.561523 12.360352,16.53125 12.411987,16.468262 C12.461914,16.404785 12.487305,16.305664 12.487305,16.163574 C12.487305,16.163574 12.487305,13.886719 12.487305,13.886719 C12.487305,13.736816 12.458008,13.625 12.395508,13.546387 C12.331055,13.470703 12.239258,13.432617 12.121094,13.432617 ZM6.419922,8.564453 C6.419922,8.564453 7.5360107,8.564453 7.5360107,8.564453 C7.5360107,8.564453 7.5360107,5.833008 7.5360107,5.833008 C7.5360107,5.833008 8.836914,1.9790039 8.836914,1.9790039 C8.836914,1.9790039 7.70105,1.9790039 7.70105,1.9790039 C7.70105,1.9790039 7.01062,4.6123047 7.01062,4.6123047 C7.01062,4.6123047 6.939331,4.6123047 6.939331,4.6123047 C6.939331,4.6123047 6.213867,1.9790039 6.213867,1.9790039 C6.213867,1.9790039 5.0897217,1.9790039 5.0897217,1.9790039 C5.0897217,1.9790039 6.419922,5.955078 6.419922,5.955078 C6.419922,5.955078 6.419922,8.564453 6.419922,8.564453 ZM10.349609,8.686523 C10.800781,8.686523 11.154297,8.568848 11.4140625,8.332031 C11.668823,8.094727 11.797852,7.770508 11.797852,7.354492 C11.797852,7.354492 11.797852,4.8466797 11.797852,4.8466797 C11.797852,4.476074 11.666016,4.1713867 11.405151,3.9375 C11.142578,3.7016602 10.805664,3.5839844 10.394409,3.5839844 C9.944214,3.5839844 9.584839,3.6972656 9.318237,3.9189453 C9.050781,4.1416016 8.916992,4.4404297 8.916992,4.8168945 C8.916992,4.8168945 8.916992,7.3344727 8.916992,7.3344727 C8.916992,7.748047 9.047852,8.075195 9.307617,8.3203125 C9.567383,8.564453 9.916992,8.686523 10.349609,8.686523 ZM9.9383545,4.779785 C9.9383545,4.6757812 9.977539,4.5893555 10.050781,4.5234375 C10.128906,4.458008 10.225586,4.425293 10.34668,4.425293 C10.478394,4.425293 10.584839,4.458008 10.666016,4.5234375 C10.746094,4.5893555 10.786011,4.6757812 10.786011,4.779785 C10.786011,4.779785 10.786011,7.4277344 10.786011,7.4277344 C10.786011,7.5566406 10.74707,7.659668 10.666992,7.734375 C10.586914,7.8081055 10.4823,7.8447266 10.34668,7.8447266 C10.214722,7.8447266 10.114136,7.8095703 10.043945,7.736328 C9.974609,7.663086 9.9383545,7.560547 9.9383545,7.4277344 C9.9383545,7.4277344 9.9383545,4.779785 9.9383545,4.779785 ZM13.295898,8.635742 C13.481323,8.635742 13.672852,8.582031 13.870117,8.47998 C14.069214,8.375977 14.260742,8.224121 14.441406,8.027344 C14.441406,8.027344 14.441406,8.564453 14.441406,8.564453 C14.441406,8.564453 15.43457,8.564453 15.43457,8.564453 C15.43457,8.564453 15.43457,3.7075195 15.43457,3.7075195 C15.43457,3.7075195 14.441406,3.7075195 14.441406,3.7075195 C14.441406,3.7075195 14.441406,7.394043 14.441406,7.394043 C14.349609,7.5 14.246948,7.5878906 14.135742,7.6552734 C14.024414,7.7231445 13.931641,7.7578125 13.858398,7.7578125 C13.765625,7.7578125 13.696289,7.732422 13.6571045,7.680664 C13.616211,7.6289062 13.592773,7.5444336 13.592773,7.430176 C13.592773,7.430176 13.592773,3.7075195 13.592773,3.7075195 C13.592773,3.7075195 12.602417,3.7075195 12.602417,3.7075195 C12.602417,3.7075195 12.602417,7.7666016 12.602417,7.7666016 C12.602417,8.056641 12.661011,8.271973 12.776367,8.416016 C12.893555,8.561035 13.06543,8.635742 13.295898,8.635742 Z"/>
+          </svg>
+        </div>
+      </div>
+      <p class="footer__copy">
+        © 2020 - Businice All Right Reserved
+      </p>
+    </div>
+  </div>
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
